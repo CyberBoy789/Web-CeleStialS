@@ -4,7 +4,6 @@
     color: #d2d3c9;
     background-color: black;
     margin: 5px;
-    /* padding: 1px; */
 }
 
 marquee.marq{
@@ -30,7 +29,7 @@ h3.footer, p.footer{
 h1.repse{
     text-align: center;
     font-weight: bolder;
-    color: #F6830F;  
+    color: black;  
     text-decoration: underline;
 }
 
@@ -38,7 +37,7 @@ p.repse{
     text-align: center;
     font-weight: bolder;
     font-size: 30px;
-    color: #0E918C;  
+    color:#F6830F;  
 }
 
 h2.repse{
@@ -49,7 +48,7 @@ h2.repse{
 }
 
 
-footer{
+footer.footer{
     border: solid #0E918C;
     text-align: center;
     font-weight: bolder;
@@ -77,4 +76,22 @@ h3.news{
     text-decoration: underline;
 }
 
-    
+div.gcse-search{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-color: black;
+}
+
+button.return{
+    margin-left: 45%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    border-width: 5px;
+}
+
+a.return{
+    color: black;
+}
