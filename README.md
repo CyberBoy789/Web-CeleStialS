@@ -1,5 +1,5 @@
 ## Web-CeleStialS
-# Research Website
+# Research Website | ReBud - Your Research Buddy
 
 
 Web CeleStialS have built this website with several factors considered.
