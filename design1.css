@@ -1,0 +1,32 @@
+*{
+    font-family: 'Lora';
+    /* color: #D2D3C9, #0E918C, #F6830F, #BB2205; */
+    color: #d2d3c9;
+    background-color: black;
+    margin: 5px;
+    /* padding: 1px; */
+}
+
+h1{
+    text-align: center;
+    text-shadow: black 10px;
+}
+
+
+div.ad{
+    border: solid #d2d3c9;
+    height: 80px;
+    text-align: center;
+}
+
+/* fieldset{
+    margin: 10px;
+    padding: 5px;
+    line-height: 50px;   
+} */
+
+button.skip{
+    margin-left: 90%;
+    color: #d2d3c9;
+}
+
