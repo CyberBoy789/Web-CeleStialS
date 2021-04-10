@@ -27,6 +27,28 @@ h3.footer, p.footer{
     color: #F6830F;  
 }
 
+h1.repse{
+    text-align: center;
+    font-weight: bolder;
+    color: #F6830F;  
+    text-decoration: underline;
+}
+
+p.repse{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #0E918C;  
+}
+
+h2.repse{
+    text-align: left;
+    font-weight: bolder;
+    color: #BB2205; 
+
+}
+
+
 footer{
     border: solid #0E918C;
     text-align: center;
