@@ -1,15 +1,39 @@
 *{
     font-family: 'Lora';
-    /* color: #D2D3C9, #0E918C, #F6830F, #BB2205; */
+    /*color: #D2D3C9, #0E918C, #F6830F, #BB2205; */
     color: #d2d3c9;
     background-color: black;
     margin: 5px;
     /* padding: 1px; */
 }
 
+marquee.marq{
+    color: #F6830F;
+}
+
 h1{
     text-align: center;
-    text-shadow: black 10px;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+nav,footer{
+    text-align: center;
+    color: blue;  
+}
+
+h3.footer, p.footer{
+    text-align:left;
+    color: #F6830F;  
+}
+
+footer{
+    border: solid #0E918C;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px
 }
 
 
@@ -19,14 +43,16 @@ div.ad{
     text-align: center;
 }
 
-/* fieldset{
-    margin: 10px;
-    padding: 5px;
-    line-height: 50px;   
-} */
+div.news{
+    border: solid #0E918C;
+    margin-left: 60%;
+    font-family: 'Source Sans Pro';
 
-button.skip{
-    margin-left: 90%;
-    color: #d2d3c9;
 }
 
+h3.news{
+    text-align: center;
+    text-decoration: underline;
+}
+
+    
