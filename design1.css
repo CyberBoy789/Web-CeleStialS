@@ -64,11 +64,20 @@ div.ad{
     text-align: center;
 }
 
+div.success{
+    border: solid #d2d3c9;
+    height: 100px;
+    text-align: center;
+    margin: 15px;
+    margin-top: 150px;
+    height: 100px;
+    font-size: 30px;
+}
+
 div.news{
     border: solid #0E918C;
     margin-left: 60%;
     font-family: 'Source Sans Pro';
-
 }
 
 h3.news{
@@ -76,12 +85,6 @@ h3.news{
     text-decoration: underline;
 }
 
-div.gcse-search{
-    margin: 0px;
-    padding: 0px;
-    color: black;
-    background-color: black;
-}
 
 button.return{
     margin-left: 45%;
@@ -89,6 +92,13 @@ button.return{
     text-align: center;
     font-size: 30px;
     color: black;
+    border-width: 5px;
+}
+
+button.success{
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
     border-width: 5px;
 }
 
