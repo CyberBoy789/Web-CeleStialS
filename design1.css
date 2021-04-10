@@ -74,11 +74,23 @@ div.success{
     height: 100px;
     font-size: 30px;
 }
-
+.content{
+    display: flex;
+    
+}
 div.news{
     border: solid #0E918C;
-    margin-left: 60%;
+    width: 40%;
     font-family: 'Source Sans Pro';
+}
+div.home{
+    border: solid #0E918C ;
+    width: 60%;    
+}
+
+div.jobs{
+    border: solid #0E918C ;
+    
 }
 
 h3.news{
