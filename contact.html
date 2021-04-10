@@ -21,167 +21,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 	</head>
-    
+    <style>
+        h3{
+            text-decoration: underline;
+        }
+    </style>
 <body>
     <header>
+        <h1>ReBud - Your Research Buddy</h1>
         <nav>
-            <a href="#">View all journals</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="index.html">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="about.html">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
             <a href="#explore">Explore Content</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="subjects.html">Subjects</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="submitresearch.html">Submit Your Research</a>&nbsp;&nbsp;|&nbsp;&nbsp;
             <a href="#journal-info">Journal Information</a>&nbsp;&nbsp;|&nbsp;&nbsp;
             <a href="#publish-with-us">Publish</a>&nbsp;&nbsp;|&nbsp;&nbsp;
             <a href="repse.html">RePSE - Research Paper Search Engine<svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M16.48 15.455c.283.282.29.749.007 1.032a.738.738 0 01-1.032-.007l-3.045-3.044a7 7 0 111.026-1.026zM8 14A6 6 0 108 2a6 6 0 000 12z"/></svg></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="#">My Account <svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M10.238 16.905a7.96 7.96 0 003.53-1.48c-.874-2.514-2.065-3.936-3.768-4.319V9.83a3.001 3.001 0 10-2 0v1.277c-1.703.383-2.894 1.805-3.767 4.319A7.96 7.96 0 009 17c.419 0 .832-.032 1.238-.095zm4.342-2.172a8 8 0 10-11.16 0c.757-2.017 1.84-3.608 3.49-4.322a4 4 0 114.182 0c1.649.714 2.731 2.305 3.488 4.322zM9 18A9 9 0 119 0a9 9 0 010 18z" fill="#333" fill-rule="evenodd"/></svg></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="#">Sign up for alerts</a><svg role="img" aria-hidden="true" focusable="false" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m4 10h2.5c.27614237 0 .5.2238576.5.5s-.22385763.5-.5.5h-3.08578644l-1.12132034 1.1213203c-.18753638.1875364-.29289322.4418903-.29289322.7071068v.1715729h14v-.1715729c0-.2652165-.1053568-.5195704-.2928932-.7071068l-1.7071068-1.7071067v-3.4142136c0-2.76142375-2.2385763-5-5-5-2.76142375 0-5 2.23857625-5 5zm3 4c0 1.1045695.8954305 2 2 2s2-.8954305 2-2zm-5 0c-.55228475 0-1-.4477153-1-1v-.1715729c0-.530433.21071368-1.0391408.58578644-1.4142135l1.41421356-1.4142136v-3c0-3.3137085 2.6862915-6 6-6s6 2.6862915 6 6v3l1.4142136 1.4142136c.3750727.3750727.5857864.8837805.5857864 1.4142135v.1715729c0 .5522847-.4477153 1-1 1h-4c0 1.6568542-1.3431458 3-3 3-1.65685425 0-3-1.3431458-3-3z" fill="#222"/></svg>&nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="#">RSS Feed</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="login.html">Log Into My Account<svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M10.238 16.905a7.96 7.96 0 003.53-1.48c-.874-2.514-2.065-3.936-3.768-4.319V9.83a3.001 3.001 0 10-2 0v1.277c-1.703.383-2.894 1.805-3.767 4.319A7.96 7.96 0 009 17c.419 0 .832-.032 1.238-.095zm4.342-2.172a8 8 0 10-11.16 0c.757-2.017 1.84-3.608 3.49-4.322a4 4 0 114.182 0c1.649.714 2.731 2.305 3.488 4.322zM9 18A9 9 0 119 0a9 9 0 010 18z" fill="#333" fill-rule="evenodd"/></svg></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="register.html">Register For An Account<svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M10.238 16.905a7.96 7.96 0 003.53-1.48c-.874-2.514-2.065-3.936-3.768-4.319V9.83a3.001 3.001 0 10-2 0v1.277c-1.703.383-2.894 1.805-3.767 4.319A7.96 7.96 0 009 17c.419 0 .832-.032 1.238-.095zm4.342-2.172a8 8 0 10-11.16 0c.757-2.017 1.84-3.608 3.49-4.322a4 4 0 114.182 0c1.649.714 2.731 2.305 3.488 4.322zM9 18A9 9 0 119 0a9 9 0 010 18z" fill="#333" fill-rule="evenodd"/></svg></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="success.html">Sign up for alerts</a><svg role="img" aria-hidden="true" focusable="false" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m4 10h2.5c.27614237 0 .5.2238576.5.5s-.22385763.5-.5.5h-3.08578644l-1.12132034 1.1213203c-.18753638.1875364-.29289322.4418903-.29289322.7071068v.1715729h14v-.1715729c0-.2652165-.1053568-.5195704-.2928932-.7071068l-1.7071068-1.7071067v-3.4142136c0-2.76142375-2.2385763-5-5-5-2.76142375 0-5 2.23857625-5 5zm3 4c0 1.1045695.8954305 2 2 2s2-.8954305 2-2zm-5 0c-.55228475 0-1-.4477153-1-1v-.1715729c0-.530433.21071368-1.0391408.58578644-1.4142135l1.41421356-1.4142136v-3c0-3.3137085 2.6862915-6 6-6s6 2.6862915 6 6v3l1.4142136 1.4142136c.3750727.3750727.5857864.8837805.5857864 1.4142135v.1715729c0 .5522847-.4477153 1-1 1h-4c0 1.6568542-1.3431458 3-3 3-1.65685425 0-3-1.3431458-3-3z" fill="#222"/></svg>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;        
+            <a href="success.html">RSS Feed</a>&nbsp;&nbsp;|&nbsp;&nbsp;
         </nav>
         <hr>
         <marquee class="marq">A Single Stop For All Your Research Needs</marquee>
-        <hr>
-     </header>            	
+        
+     </header>         	
 		
 		
-		
 
- <div class="alert with close notice" id="noticeajax" style="display:none;"></div> 
-<div class="layout anonymous">
-  <div class="layout header">
-    
-
-<header class="topbar container" data-topbar>
-  <div class="container-inner">
-    <div class="topbar inner">
-      <div class="topbar col1">
-        <button type="button" role="button" aria-label="Toggle Navigation" class="lines-button x" data-toggle-menu> <span class="lines"></span> </button>
-      </div>
-      <div class="topbar col2">
-        <div class="topbar collapse" data-menu>
-          <div class="topbar controls">
-                        
-            <div class="banner language" data-tabs="tabs" data-toggle='tooltip' data-placement="bottom" title="">
-                <ul class="language options" role="tablist">
-                    <li class="dropdown">
-                        <h5 class="dropdown toggle" data-toggle="dropdown">
-                            <span>
-                                English
-                            </span>
-                            <span class="caret">
-                                
-                            </span>
-                        </h5>
-                        <ul class="dropdown menu " role="menu" aria-labelledby="dropdownMenu">
-                            <li>
-                                <a href="" class="active">
-                                    <span class='icon-dd-tick-dark'>
-
-                                    </span>
-                                    English 
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="">
-                                    Hindi
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="">
-                                    Tamil
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="">
-                                    Telugu
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="">
-                                    Malayalam
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div> 
-            <div class="welcome">
-                Welcome 
-                <b>
-
-                </b> 
-            </div>  
-            <b>
-                <a href="">
-                    <b>Login</b>
-                </a>
-            </b>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>    
-      
-    
-  </div>
-
-  <div class="layout content">
-    <div class="container">
-      <div class="container inner clearfix">
-        
-          
-        
-        
-        <div class="article page">
-  <div class="row clearfix">
-    <div class="column--sm-8">
-      <ol class="breadcrumbs">
-        <li>
-          <a href="">
-          	
-              ReBud Support
-              
-          </a>
-        </li>
-        <li title="Solution home">
-          <a href="">Solution home</a>
-        </li>
-        <li title="General">
-          <a href="">General</a>
-        </li>
-        <li title="Contact Information">
-          <a href="">Contact Information</a>
-        </li>
-      </ol>
-    </div>
-    <div class="column--sm-4">
-      <div class="search box small">
-        <form class="search-form print" autocomplete="off" action="/en/support/search/solutions" id="hc search-form" data-csrf-ignore="true">
-	<div class="hc search input">
-	<label for="support-search-input" class="hide">Enter your search term here...</label>
-		<input placeholder="Enter your search term here..." type="text" 
-			name="term" class="special" value="" 
-            rel="page-search" data-max-matches="10" id="support-search-input">
-	</div>
-	<div class="hc search button">
-		<button class="btn btn-primary" type="submit" autocomplete="off">
-			<i class="mobile-icon-search hide-tablet"></i>
-			<span class="hide-in-mobile">
-				Search
-			</span>
-		</button>	
-	</div>
-</form>
-      </div>
-    </div>
-  </div>
-
-  <div class="row clearfix">
-    <div class="column sm 8">
-      <article class="article clearfix" itemscope itemtype="http://schema.org/Article">
-        <header class="article header">
-          <h1 class="article title" itemprop="name">
-            Contact Us
-          </h1>
-        </header>
-
+     <h1><u>Contact Details</u></h1>
         <div class="article body markdown" itemprop="articleBody">
           <div class="callout--success" data-identifyelement="486">
               <p data-identifyelement="487" dir="ltr">
@@ -191,29 +61,6 @@
             <p data-identifyelement="488" dir="ltr">
                 <br data-identifyelement="489">
                 Please select from the following options to display the appropriate contact details:</p>
-                <ul data-identifyelement="490">
-                    <li data-identifyelement="491">
-                        Online Access
-                    </li>
-                    <li data-identifyelement="493">
-                        Open Access Institutional Eligibility (i.e. Compact)
-                    </li>
-                    <li data-identifyelement="495">
-                        Open Access Publishing (including payment support)
-                    </li>
-                    <li data-identifyelement="497">
-                        Author Services (Non-OA) - Submission, Tracking, Post publication, etc.
-                    </li>
-                    <li data-identifyelement="499">
-                        Print Subscriptions, Book Orders and General Enquiries
-                    </li>
-                    <li data-identifyelement="501">
-                        Rights and Permissions
-                    </li>
-                    <li data-identifyelement="503">
-                        Additional Contact Information
-                    </li>
-                </ul>
                 <h3 class="fd toc" data-identifyelement="505" dir="ltr" id="Online-Service">
                     Online Access
                 </h3>

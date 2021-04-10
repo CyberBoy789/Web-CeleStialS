@@ -14,6 +14,7 @@ h1{
     text-align: center;
     font-weight: bolder;
     font-size: 70px;
+    text-decoration: underline;
 }
 
 nav,footer{
